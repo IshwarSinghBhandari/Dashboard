@@ -1,0 +1,166 @@
+
+.right-part{
+  width: 100%;
+}
+.dropbtn {
+  box-shadow:0 0px 5px #b4b2b2;
+    background-color: #ffffff;
+    font-size: 0.7rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.2rem 0.4rem;
+    border-radius: 0.4rem;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #fc401f;
+  }
+  .icos{
+    box-shadow:0 0px 5px #b4b2b2;
+    width: 9rem !important;
+    background-color: white;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 0.3rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+.icos>i{
+    font-weight: bolder;
+}
+.icon-bold {
+    font-weight: bold;
+}
+
+
+
+
+
+.ev-he{
+  margin-top: 0.1rem;
+}
+.event{
+  width: 67%;
+}
+.health{
+  width: 29%;
+  margin-left: 4%;
+}
+.event,.health{
+  box-shadow:0 0px 5px #b4b2b2;
+  border-radius: 0.3rem;
+  background-color:white;
+  padding: 0.5rem 1rem;
+}
+.bi-arrow-right-circle-fill{
+  cursor: pointer;
+}
+th{
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+}
+th,td{
+  padding-bottom: 0.5rem;
+}
+
+.circle-wrap {
+  width: 8rem;
+  height: 8rem;
+  background: #e0dee0;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+}
+
+ .mask,
+.fill {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.mask {
+  clip: rect(0, 8rem, 8rem, 4rem);
+}
+
+.inside-circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: white;
+  line-height: 120px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mask .fill {
+ 
+  background-color: #51ed22;
+}
+
+.full,
+.fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(120deg);
+}
+
+@keyframes fill{
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(  120deg);
+  }
+}
+
+.rotat{
+  rotate: 180deg;
+}
+.bord{
+  border-radius: 1rem;
+  background-color: #e9e9eb;
+  margin:0 0.6rem ;
+  text-align: center;
+}
+

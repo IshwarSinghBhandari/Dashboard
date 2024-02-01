@@ -1,0 +1,48 @@
+.right-head {
+    flex-wrap: wrap;
+    margin-bottom: 0.2rem;
+    width: 85%;
+}
+.hedbtn{
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    width: 11vw;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+    background: white;
+}
+.hedbtn1,.hedbtn3{
+    border: 0.13rem solid rgb(16, 247, 16);
+    }
+.hedbtn2{
+    border: 0.13rem solid rgb(247, 16, 16);
+    }
+
+.hedbtn4{
+    border: 0.13rem solid rgb(247, 120, 16);
+    }
+.hedbtn5{
+    border:none;
+    background-color: rgb(16, 247, 16);
+}
+.colr1,.colr3{
+    background-color:rgb(16, 247, 16)  ;
+}
+.colr2{
+    background-color: rgb(247, 16, 16);
+}
+.colr4{
+    background-color: rgb(247, 120, 16);
+}
+.fs1{
+    font-size: 0.80rem;
+}
+.numb{
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    background-color: rgb(76, 76, 252);
+}
